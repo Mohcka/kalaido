@@ -39,7 +39,7 @@ export const LandingHero = () => {
         </div>
       </div>
       <div className="text-sm md:text-xl font-light text-zinc-400">
-        Create content using AI 10x faster.
+        Create content 10X Faster with AI.
       </div>
       <div>
         <Link href={status === "loading" ? "#" : isAuthenticated ? "/dashboard" : "/sign-up"}>
@@ -47,7 +47,7 @@ export const LandingHero = () => {
             variant="premium"
             className="md:text-lg p-4 md:p-6 rounded-full font-semibold"
           >
-            Start Generating For Free
+            Start Generating
           </Button>
         </Link>
       </div>
